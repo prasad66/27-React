@@ -10,7 +10,7 @@ const AddProduct = () => {
     const apiUrl = 'https://614eac09b4f6d30017b482e5.mockapi.io/products';
 
     let navigate = useNavigate();
-    
+
     const formik = useFormik({
         initialValues: {
             name: "",

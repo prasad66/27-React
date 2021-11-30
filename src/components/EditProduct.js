@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useParams } from "react-router-dom";
@@ -9,10 +8,13 @@ const EditProduct = () => {
 
     const apiUrl = 'https://614eac09b4f6d30017b482e5.mockapi.io/products/';
 
+    let navigate = useNavigate();
+    const params = useParams();
+
     useEffect(() => {
         if (params.id)
             getDate();
-    }, [])
+    }, [params.id])
 
     const [name, setName] = useState('')
     const [prodName, setProdName] = useState('')
@@ -20,8 +22,6 @@ const EditProduct = () => {
     const [image, setImage] = useState(0)
     const [description, setDescription] = useState('')
 
-    let navigate = useNavigate();
-    const params = useParams();
 
     const getDate = async () => {
 
