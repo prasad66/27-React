@@ -14,6 +14,7 @@ const EditProduct = () => {
     useEffect(() => {
         if (params.id)
             getDate();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [params.id])
 
     const [name, setName] = useState('')
