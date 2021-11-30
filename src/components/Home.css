@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap");
+.header-img {
+  position: absolute;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  z-index: -1;
+  background-attachment: scroll;
+  background-position: center center;
+}
+
+.container-fluid {
+  padding-top: 10.5rem !important;
+  padding-bottom: 6rem !important;
+  font-size: 5rem !important;
+  line-height: 6rem !important;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.subheading {
+  font-size: 3rem !important;
+  font-family: "Ubuntu", sans-serif;
+}
+.heading {
+  font-family: "Sarabun", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.btn {
+  font-size: x-large !important;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}

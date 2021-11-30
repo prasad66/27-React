@@ -1,0 +1,4 @@
+div > textarea {
+  resize: none;
+  outline: none;
+}
